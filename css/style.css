@@ -2,9 +2,7 @@ h1 {
     color: white;
     font-size: 40px;
     padding: 10px;
-}
-nav {
-    font-size: 26px;
+    padding-top: 70px;
 }
 
 ul {
@@ -12,10 +10,13 @@ ul {
     margin: 0;
     padding: 0;
     text-align: left;
+    position: fixed;
+    background-color: #333;
+    overflow: hidden;
 }
 
 li {
-    float:right;
+    float:left;
 }
 
 li a {
@@ -24,12 +25,15 @@ li a {
     text-decoration: none;
     padding: 14px 16px;
     color: white;
+    font-size: 22px;
 }
 
 li a:hover {
     background-color: #111;
 }
-
+.active {
+    background-color: cadetblue;
+}
 body {
     background-color: #2F2FA2;
 }
