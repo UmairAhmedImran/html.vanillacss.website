@@ -36,7 +36,11 @@ li a:hover {
 .active {
     background-color: cadetblue;
 }
-body {
+
+#heading-content {
     background-color: #2F2FA2;
+}
+
+body {
     margin: 0;
 }
