@@ -3,7 +3,33 @@ h1 {
     font-size: 40px;
     padding: 10px;
 }
-#heading {
-    height: fit-content;
-    background-color: rgb(165, 29, 29);
+nav {
+    font-size: 26px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    float:right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: white;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+body {
+    background-color: #2F2FA2;
 }
