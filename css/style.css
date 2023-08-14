@@ -1,3 +1,9 @@
 h1 {
-    color: red;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+#heading {
+    height: fit-content;
+    background-color: rgb(165, 29, 29);
 }
