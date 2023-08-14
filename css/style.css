@@ -1,8 +1,8 @@
 h1 {
     color: white;
     font-size: 40px;
-    padding: 10px;
-    padding-top: 70px;
+    margin: 10px;
+    padding-top: 50px;
 }
 
 ul {
@@ -10,9 +10,11 @@ ul {
     margin: 0;
     padding: 0;
     text-align: left;
-    position: fixed;
     background-color: #333;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 li {
@@ -36,4 +38,5 @@ li a:hover {
 }
 body {
     background-color: #2F2FA2;
+    margin: 0;
 }
