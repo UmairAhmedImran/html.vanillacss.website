@@ -38,8 +38,16 @@ li a:hover {
 
 #heading-content {
     background-color: #2F2FA2;
+    padding: 0;
+    margin: 0;
 }
-
+#video-1 {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
 body {
     margin: 0;
 }
