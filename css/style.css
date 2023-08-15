@@ -11,7 +11,6 @@ ul {
     padding: 0;
     text-align: left;
     background-color: #333;
-    overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
