@@ -17,9 +17,13 @@ ul {
     width: 100%;
 }
 
-h2 {
+#main-h2 {
     text-align: center;
     color: white;
+}
+#about-h2{
+    margin: 10px;
+    padding: 10px;
 }
 li {
     float:left;
@@ -57,9 +61,12 @@ li a:hover {
     display:inline-flex;
     width: 300px;
     height: 180px;
-    border: 3px solid black;
+    border: 3px solid gray;
+    padding-top: 0px;
     padding: 30px;
     margin: 60px;
+    margin-top: 0px;
+    box-shadow: 5px 5px 3px gray;
 }
 body {
     margin: 0;
