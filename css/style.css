@@ -23,7 +23,8 @@ ul {
 }
 #about-h2{
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
+    font-size: 25px;
 }
 li {
     float:left;
@@ -78,6 +79,19 @@ li a:hover {
 #p-box {
     padding: 0px;
     margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+button {
+    background-color: #2F2FA2;;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 12px 28px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
 }
 body {
     margin: 0;
