@@ -93,6 +93,10 @@ button {
     text-align: center;
     cursor: pointer;
 }
+#h2-news {
+    padding: 20px;
+    margin: 20px;
+}
 body {
     margin: 0;
 }
