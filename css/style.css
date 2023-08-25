@@ -97,6 +97,11 @@ button {
     padding: 20px;
     margin: 20px;
 }
+#footer {
+    background-color: black;
+    right: 100;
+    height: 300px;
+}
 body {
     margin: 0;
 }
