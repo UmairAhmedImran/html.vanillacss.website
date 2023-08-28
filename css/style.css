@@ -107,13 +107,15 @@ button {
     padding: 20px;
     margin: 20px;
 }
-#footer-animation {
+.animation-footer {
+    display: inline-flex;
+    margin-left: -100px;
     width: 80px;
     height: 80px;
     border-radius: 50%;
     background-color: red;
     position: relative;
-    animation-name: example;
+    animation-name: animation;
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-delay: 1s;
@@ -122,28 +124,29 @@ button {
     animation-fill-mode: both;
   }
   
-  @keyframes example {
+  @keyframes animation {
     0%   {top:0px;}
     50%  {top:200px;}
     100% {top:0px;}
   }
-#ul-foot {
+.animations {
     display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    position: relative;
-    top: 0;
-    width: 100%;
+    margin: 100px;
 }
-#li-foot  {
-    display: block;
-    padding: 12px 14px;
-    margin: 0px;
-    float: left;
-    padding: 0px;
-    margin: 0px;
+.animation-footer:nth-child(2) {
+    animation-delay: 1.25s;
+    background-color: green;
+    left: 100px;
+}
+.animation-footer:nth-child(3) {
+    animation-delay: 1.5s;
+    background-color: blue;
+    left: 200px;
+}
+.animation-footer:nth-child(4) {
+    animation-delay: 1.75s;
+    background-color: white;
+    left: 300px;
 }
 body {
     margin: 0;
