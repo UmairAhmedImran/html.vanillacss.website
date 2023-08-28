@@ -6,7 +6,7 @@ h1 {
     padding-top: 50px;
 }
 
-ul {
+#ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ ul {
     font-size: 22px;
 }
 
-li a:hover {
+#li a:hover {
     background-color: #111;
 }
 .active {
@@ -127,6 +127,24 @@ button {
     50%  {top:200px;}
     100% {top:0px;}
   }
+#ul-foot {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+#li-foot  {
+    display: block;
+    padding: 12px 14px;
+    margin: 0px;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
 body {
     margin: 0;
 }
